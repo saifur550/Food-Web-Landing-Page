@@ -61,37 +61,75 @@ body{
 
 
 
-/*  header top section start  */
+/*  nav section start  */
 
 #top-header{
-    background: url(../images/food/header-top1.jpg);
+    background: url(../images/food/header-top2.jpg);
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
-    
-   
+    height: 100vh;
+     
 }
 
-.hero-content{
-    padding-top: 200px;
+.logo a{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ff4128;
 }
 
-.hero-content h1{
-    font-size: 70px;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
+.navBar a{
+    display: inline-block;
+    padding: 20px 20px;
+    font-weight: 700;
+    color: rgb(255, 249, 249);
+    font-size: 18px;
+}
+
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  
+}
+
+.hero-text span{
+    color: #ff4128;
+}
+
+.hero-text h1{
+    font-size: 60px;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #000000;
 }
 
-/* header top section end */
+
+
+
+/* nav section end */
 
 
 
 /* header main section start */
 
 #header-section{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 50px;
    
     
 }
