@@ -61,11 +61,39 @@ body{
 
 
 
-/* header section start */
+/*  header top section start  */
+
+#top-header{
+    background: url(../images/food/header-top1.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+   
+}
+
+.hero-content{
+    padding-top: 200px;
+}
+
+.hero-content h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+/* header top section end */
+
+
+
+/* header main section start */
 
 #header-section{
     padding-top: 20px;
     padding-bottom: 20px;
+   
+    
 }
 
 
@@ -95,7 +123,7 @@ body{
     width: 90%;
 }
 
-/* header section end */
+/* header main section end */
 
 
 
