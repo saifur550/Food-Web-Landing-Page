@@ -379,15 +379,19 @@ nav {
 }
 
 .social-link img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;  
-    padding: 10px;
+    padding:0px;
+    background: #ffffff;
+    padding: 5px 5px;
+
+    
+}.social-link a{
+    margin-left: 10px;
 }
 
-.social-link a{
-    display: block;
-}
+
 
 
 
