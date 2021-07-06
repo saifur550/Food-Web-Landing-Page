@@ -213,6 +213,8 @@ body{
     background: url(../images/shapes/Frame\ 59.jpg);
     background-size: cover;
     background-position: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
